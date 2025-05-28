@@ -4,7 +4,7 @@
 
 
 Age = int(input("Enter your age to check if ur eligible for voting: "))
-if age >= 18:
+if Age >= 18:
     print("You are an adult and eligible to vote")
 else:
     print("You are a minor.")
@@ -16,7 +16,7 @@ def check_voting_eligibility(age):
     else:
         return "You are not eligible to vote."
 
-# Example usage
+# Example of same code using Function
 user_age = int(input("Enter your age: "))
 result = check_voting_eligibility(user_age)
 print(result)
